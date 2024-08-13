@@ -1,0 +1,50 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.app-logo {
+    height: 150px;
+    width: 200px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 20px;
+
+}
+
+.app-header aside {
+    padding: 20px;
+    margin: 1rem;
+}
+
+.app-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.coffee-card {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+}
+
+.coffee-card:hover {
+    background-color: aliceblue;
+}
+
+.coffee-card-image {
+    width: 200px;
+    height: 200px;
+}
